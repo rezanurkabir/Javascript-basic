@@ -26,3 +26,11 @@ for(let i=1; i<=n; i++){
  
 };
  console.log('Final Sum: '+ Sum)
+
+// For Loop 
+let n = 10;
+
+// looping from i = 1 to 10
+for (let i = 1; i <= n; i++) {
+    console.log(`Hello World !.`);
+}
