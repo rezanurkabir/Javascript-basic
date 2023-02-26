@@ -24,3 +24,11 @@ function getEven(item){
 }
 var arr2 = arr1.filter(getEven)
 console.log(arr2)
+
+
+// forEach Method
+let students =['azim','kasim','masud']
+
+students.forEach((item)=>{
+    console.log(item)
+})
