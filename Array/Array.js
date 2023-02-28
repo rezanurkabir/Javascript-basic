@@ -32,3 +32,10 @@ let students =['azim','kasim','masud']
 students.forEach((item)=>{
     console.log(item)
 })
+// Example
+let students =['azim','kasim','masud']
+let studentCopy = [] ;
+for(let i= 0; i < students.length ; i++){
+    studentCopy.push(students[i])
+}
+console.log(studentCopy)
