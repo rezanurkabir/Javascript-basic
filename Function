@@ -1,4 +1,4 @@
-//Arrow Function with map method
+//Arrow Function with map method:
 const num1 =[2,4,6,8];
 num1.map((num) =>{
     console.log(num*2)
