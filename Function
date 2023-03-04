@@ -3,3 +3,12 @@ const num1 =[2,4,6,8];
 num1.map((num) =>{
     console.log(num*2)
 })
+
+// create Object by using Function
+function student(name,age,prof) {
+  this.name = name;
+  this.age = age;
+  this.prof = prof;
+}
+var std1 = new student("karim Islam",1995,"student")
+console.log(std1)
