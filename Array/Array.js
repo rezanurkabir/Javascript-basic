@@ -32,6 +32,17 @@ let students =['azim','kasim','masud']
 students.forEach((item)=>{
     console.log(item)
 })
+// ForEach sum
+var arr = [1,2,3,4,5,6]
+let sum = 0
+arr.forEach((v, i) => {
+  if (i >= 2) {
+    sum = sum + v
+  }
+});
+console.log(`Res: ${sum}`)
+
+
 // Example
 let students =['azim','kasim','masud']
 let studentCopy = [] ;
