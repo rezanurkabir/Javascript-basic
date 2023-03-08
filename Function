@@ -12,3 +12,5 @@ function student(name,age,prof) {
 }
 var std1 = new student("karim Islam",1995,"student")
 console.log(std1)
+
+//Map ()
